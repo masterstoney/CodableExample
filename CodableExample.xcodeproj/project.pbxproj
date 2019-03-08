@@ -14,6 +14,7 @@
 		BED195352232B10E0041AE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED195332232B10E0041AE2F /* LaunchScreen.storyboard */; };
 		BED195402232B10E0041AE2F /* CodableExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1953F2232B10E0041AE2F /* CodableExampleTests.swift */; };
 		BED1954B2232B10E0041AE2F /* CodableExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1954A2232B10E0041AE2F /* CodableExampleUITests.swift */; };
+		BED195592232B2140041AE2F /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED195582232B2140041AE2F /* CountryModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BED195462232B10E0041AE2F /* CodableExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodableExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED1954A2232B10E0041AE2F /* CodableExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExampleUITests.swift; sourceTree = "<group>"; };
 		BED1954C2232B10E0041AE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED195582232B2140041AE2F /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BED1952A2232B10C0041AE2F /* AppDelegate.swift */,
 				BED1952C2232B10C0041AE2F /* ViewController.swift */,
+				BED195582232B2140041AE2F /* CountryModel.swift */,
 				BED1952E2232B10C0041AE2F /* Main.storyboard */,
 				BED195312232B10E0041AE2F /* Assets.xcassets */,
 				BED195332232B10E0041AE2F /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				BED1952D2232B10C0041AE2F /* ViewController.swift in Sources */,
 				BED1952B2232B10C0041AE2F /* AppDelegate.swift in Sources */,
+				BED195592232B2140041AE2F /* CountryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
